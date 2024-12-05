@@ -172,8 +172,16 @@ nav {
         left: 0;
     }
 
+    .nav-item {
+        margin-left: 0;
+    }
+
     .nav-link {
         font-size: 1.5rem;
+    }
+
+    .nav-link::after {
+        display: none;
     }
 
     #download-section-button {
